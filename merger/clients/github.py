@@ -1,20 +1,11 @@
 from github import Github
-from config.env import GITHUB_TOKEN, TARGET_USER
+from config.env import GITHUB_TOKEN, TARGET_USER, TARGET_REPOS
 
 
 class GithubClient(Github):
   targeted_pull_requester = 'dependabot[bot]'
   target_user = TARGET_USER
-  target_repos = [
-    'linkedin-firewall', 
-    'octosync',
-    'typescript-graphql-api', 
-    'react-github-heatmap', 
-    'promethest', 
-    'django-react-typescript',
-    'fullstack-typescript',
-    'i18n-iso-languages'
-  ]
+  target_repos = TARGET_REPOS.split(',')
 
   def __init__(self) -> None:
       super().__init__()

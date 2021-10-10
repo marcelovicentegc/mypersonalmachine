@@ -14,3 +14,4 @@ def get_env(env, fallback) -> str:
 
 GITHUB_TOKEN=get_env('GITHUB_TOKEN', None)
 TARGET_USER=get_env('TARGET_USER', 'marcelovicentegc')
+TARGET_REPOS=get_env('TARGET_REPOS', '')
