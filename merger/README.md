@@ -17,3 +17,9 @@
 | TARGET_REPOS | The targetted repositories, separated by `,`.                   |
 
 The Merger expects these variables to live within a `.env.` file. You can derive it from the [`.env.example`](./.env.example) file.
+
+## Development
+
+```bash
+yarn setup && yarn start
+```

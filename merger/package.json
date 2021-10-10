@@ -1,0 +1,12 @@
+{
+  "name": "merger",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marcelovicentegc/mypersonalmachine/tree/main/merger",
+  "author": "Marcelo Cardoso",
+  "license": "MIT",
+  "scripts": {
+    "setup": "curl https://raw.githubusercontent.com/marcelovicentegc/py-start/main/start.sh | sh",
+    "start": "flask run"
+  }
+}

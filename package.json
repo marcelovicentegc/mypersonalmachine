@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "setup:merger": "cd merger && curl https://raw.githubusercontent.com/marcelovicentegc/py-start/main/start.sh | sh",
-    "start:merger": "cd merger && python3 app.py"
+    "setup:merger": "cd merger && yarn setup",
+    "start:merger": "cd merger && yarn start"
   }
 }
