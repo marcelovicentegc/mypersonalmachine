@@ -1,0 +1,13 @@
+{
+  "name": "mypersonalmachine",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marcelovicentegc/mypersonalmachine",
+  "author": "Marcelo Cardoso <marcelovicentegc@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "setup:merger": "cd merger && curl https://raw.githubusercontent.com/marcelovicentegc/py-start/main/start.sh | sh",
+    "start:merger": "cd merger && python3 app.py"
+  }
+}
