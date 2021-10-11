@@ -29,5 +29,6 @@ def pr_lookup():
     resp = make_response('OK', 200)
     return resp
   except Exception as error:
+    sentry_sdk.capture_exception(error)
     resp = make_response('INTERNAL SERVER ERROR', 500)
     return resp
