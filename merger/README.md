@@ -15,6 +15,7 @@
 | GITHUB_TOKEN | The Github token to allow your user to execute actions via API. |
 | TARGET_USER  | The owner of the repositories you're targetting.                |
 | TARGET_REPOS | The targetted repositories, separated by `,`.                   |
+| SENTRY_DSN   | Your Sentry instance DSN.                                       |
 
 The Merger expects these variables to live within a `.env.` file. You can derive it from the [`.env.example`](./.env.example) file.
 
