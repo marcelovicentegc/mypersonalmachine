@@ -55,7 +55,7 @@ class GithubClient(Github):
           continue
 
         if pull.mergeable_state == 'unstable':
-          pull.create_issue_comment(self.targeted_pull_requester + " , this PR is dirty. I'm closing it")
+          pull.create_issue_comment('@' + self.targeted_pull_requester + " , this PR is dirty. I'm closing it")
           pull.edit(state='closed')
           continue
 
