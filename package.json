@@ -9,6 +9,6 @@
   "scripts": {
     "setup:merger": "cd merger && yarn setup",
     "start:merger": "cd merger && yarn start",
-    "start:merger:prod": "cd merger && gunicorn app:app"
+    "start:merger:prod": "cd merger yarn start:prod"
   }
 }

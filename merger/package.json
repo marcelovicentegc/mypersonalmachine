@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "setup": "curl https://raw.githubusercontent.com/marcelovicentegc/py-start/main/start.sh | sh",
-    "start": "flask run"
+    "start": "flask run",
+    "start:prod": "gunicorn app:app"
   }
 }
